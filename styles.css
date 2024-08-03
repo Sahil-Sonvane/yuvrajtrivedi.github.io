@@ -143,8 +143,11 @@ section {
     font-weight: bold;
     margin-bottom: 20px;
     animation: fadeIn 2s ease-in-out;
+    color: #000;
 }
-
+body.dark-mode .hero-content p {
+    color: #fff; /* White or any color suitable for dark mode */
+}
 
 .btn-primary {
     display: inline-block;
